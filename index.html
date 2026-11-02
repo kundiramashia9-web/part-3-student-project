@@ -1,0 +1,529 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Best Cakes | Delicious Cakes for Every Occasion</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Best Cakes</a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#cakes">Our Cakes</a></li>
+                <li><a href="#specials">Specials</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+        <section class="hero">
+            <div class="hero-content">
+
+                <h1>Welcome to Best Cakes</h1>
+
+                <p>
+                    Making your special moments sweeter with delicious,
+                    beautiful cakes made with love.
+                </p>
+
+                <a href="#cakes" class="btn">Explore Our Cakes</a>
+
+                <a href="enquiry.html" class="btn btn-outline">
+                    Order Your Cake
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             OUR CAKES
+        ========================== -->
+        <section class="cakes-section" id="cakes">
+
+            <h2>Our Delicious Cakes</h2>
+
+            <p class="section-description">
+                Discover the perfect cake for birthdays, weddings,
+                celebrations, and every special moment.
+            </p>
+
+
+            <!-- Cake Search -->
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="cakeSearch"
+                    placeholder="Search for a cake..."
+                    aria-label="Search cakes"
+                >
+
+                <button type="button" id="searchButton">
+                    Search
+                </button>
+
+            </div>
+
+
+            <!-- Cake Cards -->
+            <div class="cake-container" id="cakeContainer">
+
+
+                <!-- Chocolate Cake -->
+                <article class="cake-card" data-name="chocolate cake">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                        alt="Chocolate celebration cake"
+                        loading="lazy"
+                    >
+
+                    <div class="cake-info">
+
+                        <h3>Chocolate Cake</h3>
+
+                        <p>
+                            A rich and delicious chocolate cake
+                            perfect for chocolate lovers.
+                        </p>
+
+                        <p class="cake-price">R250</p>
+
+                        <a
+                            href="enquiry.html?cake=Chocolate%20Cake"
+                            class="btn"
+                        >
+                            Enquire Now
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <!-- Vanilla Cake -->
+                <article class="cake-card" data-name="vanilla cake">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=700&q=80"
+                        alt="Vanilla celebration cake"
+                        loading="lazy"
+                    >
+
+                    <div class="cake-info">
+
+                        <h3>Vanilla Cake</h3>
+
+                        <p>
+                            A soft, classic vanilla cake
+                            suitable for any occasion.
+                        </p>
+
+                        <p class="cake-price">R220</p>
+
+                        <a
+                            href="enquiry.html?cake=Vanilla%20Cake"
+                            class="btn"
+                        >
+                            Enquire Now
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <!-- Strawberry Cake -->
+                <article class="cake-card" data-name="strawberry cake">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80"
+                        alt="Strawberry celebration cake"
+                        loading="lazy"
+                    >
+
+                    <div class="cake-info">
+
+                        <h3>Strawberry Cake</h3>
+
+                        <p>
+                            A sweet, fruity cake for celebrations
+                            and special occasions.
+                        </p>
+
+                        <p class="cake-price">R280</p>
+
+                        <a
+                            href="enquiry.html?cake=Strawberry%20Cake"
+                            class="btn"
+                        >
+                            Enquire Now
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <!-- Birthday Cake -->
+                <article class="cake-card" data-name="birthday cake">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=700&q=80"
+                        alt="Birthday celebration cake"
+                        loading="lazy"
+                    >
+
+                    <div class="cake-info">
+
+                        <h3>Birthday Cake</h3>
+
+                        <p>
+                            Celebrate your special day with
+                            a beautiful birthday cake.
+                        </p>
+
+                        <p class="cake-price">R300</p>
+
+                        <a
+                            href="enquiry.html?cake=Birthday%20Cake"
+                            class="btn"
+                        >
+                            Enquire Now
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <!-- Red Velvet Cake -->
+                <article class="cake-card" data-name="red velvet cake">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=700&q=80"
+                        alt="Red velvet celebration cake"
+                        loading="lazy"
+                    >
+
+                    <div class="cake-info">
+
+                        <h3>Red Velvet Cake</h3>
+
+                        <p>
+                            A special red velvet cake
+                            for unforgettable celebrations.
+                        </p>
+
+                        <p class="cake-price">R320</p>
+
+                        <a
+                            href="enquiry.html?cake=Red%20Velvet%20Cake"
+                            class="btn"
+                        >
+                            Enquire Now
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <!-- Wedding Cake -->
+                <article class="cake-card" data-name="wedding cake">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=80"
+                        alt="Wedding celebration cake"
+                        loading="lazy"
+                    >
+
+                    <div class="cake-info">
+
+                        <h3>Wedding Cake</h3>
+
+                        <p>
+                            Make your wedding memorable with
+                            an elegant celebration cake.
+                        </p>
+
+                        <p class="cake-price">From R850</p>
+
+                        <a
+                            href="enquiry.html?cake=Wedding%20Cake"
+                            class="btn"
+                        >
+                            Enquire Now
+                        </a>
+
+                    </div>
+                </article>
+
+            </div>
+
+
+            <p id="noResults" class="no-results" hidden>
+                No cakes found. Please try another search.
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             SPECIAL OFFERS
+        ========================== -->
+        <section class="specials-section" id="specials">
+
+            <h2>Our Special Offers</h2>
+
+            <p class="section-description">
+                Make your celebrations even sweeter with our special offers!
+            </p>
+
+
+            <div class="specials-container">
+
+
+                <!-- Birthday Special -->
+                <article class="special-card">
+
+                    <div class="special-badge">Birthday Special</div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=700&q=80"
+                        alt="Birthday cake with celebration decorations"
+                        loading="lazy"
+                    >
+
+                    <div class="special-info">
+
+                        <h3>Birthday Special</h3>
+
+                        <p>
+                            Make someone's birthday extra special.
+                            Order a birthday cake and receive
+                            a free birthday message.
+                        </p>
+
+                        <a
+                            href="enquiry.html?cake=Birthday%20Cake"
+                            class="btn"
+                        >
+                            Claim Special
+                        </a>
+
+                    </div>
+                </article>
+
+
+
+                <!-- Buy Two Cakes -->
+                <article class="special-card">
+
+                    <div class="special-badge">Sweet Deal</div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                        alt="Delicious cakes for a special offer"
+                        loading="lazy"
+                    >
+
+                    <div class="special-info">
+
+                        <h3>Buy 2 Cakes</h3>
+
+                        <p>
+                            Planning a big celebration?
+                            Buy two cakes and receive free cupcakes
+                            with your order.
+                        </p>
+
+                        <a
+                            href="enquiry.html?cake=Custom%20Cake"
+                            class="btn"
+                        >
+                            Claim Special
+                        </a>
+
+                    </div>
+                </article>
+
+
+
+                <!-- Community Special -->
+                <article class="special-card">
+
+                    <div class="special-badge">Community Offer</div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80"
+                        alt="Cake for a community celebration"
+                        loading="lazy"
+                    >
+
+                    <div class="special-info">
+
+                        <h3>Community Special</h3>
+
+                        <p>
+                            Celebrate together and enjoy
+                            10% savings on qualifying community
+                            celebration cake orders.
+                        </p>
+
+                        <a
+                            href="enquiry.html?cake=Custom%20Cake"
+                            class="btn"
+                        >
+                            Claim Special
+                        </a>
+
+                    </div>
+                </article>
+
+
+            </div>
+
+            <p class="specials-note">
+                Please enquire to confirm offer availability and conditions.
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT US
+        ========================== -->
+        <section class="about-section" id="about">
+
+            <div class="about-content">
+
+                <h2>About Best Cakes</h2>
+
+                <p>
+                    At Best Cakes, we believe every celebration deserves
+                    something sweet. We offer a selection of delicious
+                    cakes for birthdays, weddings, family gatherings,
+                    and other special occasions.
+                </p>
+
+                <p>
+                    From classic vanilla and rich chocolate to beautiful
+                    red velvet and wedding cakes, we want to help make
+                    your memorable moments even sweeter.
+                </p>
+
+                <a href="enquiry.html" class="btn">
+                    Enquire About a Cake
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer>
+
+        <p>&copy; 2026 Best Cakes. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         CAKE SEARCH
+    ========================== -->
+    <script>
+
+        const cakeSearch = document.getElementById("cakeSearch");
+        const searchButton = document.getElementById("searchButton");
+        const cakeCards = document.querySelectorAll(".cake-card");
+        const noResults = document.getElementById("noResults");
+
+
+        function searchCakes() {
+
+            const searchText = cakeSearch.value
+                .toLowerCase()
+                .trim();
+
+            let visibleCount = 0;
+
+
+            cakeCards.forEach(function(card) {
+
+                const cakeName = card.dataset.name.toLowerCase();
+
+                if (cakeName.includes(searchText)) {
+
+                    card.style.display = "";
+
+                    visibleCount++;
+
+                } else {
+
+                    card.style.display = "none";
+
+                }
+
+            });
+
+
+            noResults.hidden = visibleCount !== 0;
+
+        }
+
+
+        searchButton.addEventListener("click", searchCakes);
+
+        cakeSearch.addEventListener("input", searchCakes);
+
+
+        cakeSearch.addEventListener("keydown", function(event) {
+
+            if (event.key === "Enter") {
+
+                event.preventDefault();
+
+                searchCakes();
+
+            }
+
+        });
+
+    </script>
+
+
+</body>
+</html>
